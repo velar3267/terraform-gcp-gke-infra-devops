@@ -1,3 +1,4 @@
+logsBucket: 'gs://velar-cloud-build-logs'
 steps:
 - id: 'branch name'
   name: 'alpine'
@@ -75,6 +76,4 @@ steps:
         echo "*******************************************************************************"
       fi
 # [END tf-apply]  
-logsBucket: 'gs://velar-cloud-build-logs'
-  options:
-    logging: GCS_ONLY    
+   
