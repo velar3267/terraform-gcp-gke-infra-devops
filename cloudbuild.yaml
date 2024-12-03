@@ -74,4 +74,7 @@ steps:
         echo "Branch '$BRANCH_NAME' does not represent an official environment."
         echo "*******************************************************************************"
       fi
+  logsBucket: 'gs://velar-cloud-build-logs'
+    options:
+      logging: GCS_ONLY
 # [END tf-apply]      
