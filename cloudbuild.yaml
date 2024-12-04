@@ -75,5 +75,5 @@ steps:
         echo "Branch '$BRANCH_NAME' does not represent an official environment."
         echo "*******************************************************************************"
       fi
-# [ENDED tf-apply]  
+# [END tf-apply]  
    
